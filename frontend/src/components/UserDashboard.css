@@ -1,0 +1,81 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2196f3;
+  color: white;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.sidebar button:hover {
+  background-color: #1565c0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+  overflow-y: auto;
+}
+
+.main-content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.main-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-content li {
+  background-color: #e3f2fd;
+  border: 1px solid #bbdefb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content li p {
+  margin: 0;
+}
+
+.delete-button {
+  background-color: #e57373;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.delete-button:hover {
+  background-color: #ef5350;
+}

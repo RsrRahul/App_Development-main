@@ -1,0 +1,65 @@
+/* CompanyDashboard.css */
+
+/* General Styles */
+.company-dashboard {
+    background-color: #f8f9fa; /* Light background for the dashboard */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    background-color: #343a40; /* Dark background for the sidebar */
+    color: #fff; /* White text color */
+    padding: 20px;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ffc107; /* Golden text color */
+    text-align: center;
+  }
+  
+  .sidebar .btn {
+    font-size: 1rem;
+    padding: 10px 0;
+    border: none;
+  }
+  
+  .sidebar .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .sidebar .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .sidebar .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .sidebar .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .sidebar .btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Content Styles */
+  .content {
+    padding: 30px;
+    background-color: #ffffff; /* White background for content area */
+    flex-grow: 1;
+    overflow-y: auto;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,12 @@
+.job-application-form .form-group {
+    margin-bottom: 15px;
+}
+
+.job-application-form label {
+    font-weight: bold;
+}
+
+.job-application-form .btn {
+    display: block;
+    width: 100%;
+}
